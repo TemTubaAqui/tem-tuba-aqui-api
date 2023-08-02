@@ -1,0 +1,10 @@
+# Ignore everything, except white-listed files
+*
+
+# white-listed files
+!manage.py
+!app/
+!docker/
+!env/
+!requirements/
+!settings/

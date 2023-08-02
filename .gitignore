@@ -1,0 +1,13 @@
+# Application
+.minio
+dockervolume
+
+# Python
+venv
+__pycache__
+
+# Local env
+env/.local.env
+
+# OS
+.DS_Store

@@ -1,0 +1,97 @@
+version: "3"
+services:
+  server:
+    build:
+      context: .
+      dockerfile: ./docker/dev/Dockerfile
+    container_name: temtubaaqui-server
+    image: temtubaaqui
+    tty: true
+    environment:
+      - IS_ON_PREMISE=false
+    env_file: 
+      - env/.dev.env
+    command: >
+      bash -c 'python manage.py collectstatic --noinput &&
+        python -Xfrozen_modules=off manage.py runserver 0.0.0.0:8000'
+    restart: unless-stopped
+    depends_on:
+      - minio
+      - db
+    ports:
+      - "8000:8000"
+      - "6900:6900"
+    volumes:
+      - ./settings:/usr/src/app/settings
+      - ./app:/usr/src/app/app
+    networks:
+      - temtubaaqui-network
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  worker:
+    build:
+      context: .
+      dockerfile: ./docker/dev/Dockerfile
+    container_name: temtubaaqui-worker
+    image: temtubaaqui
+    environment:
+      - IS_ON_PREMISE=false
+    env_file:
+      - env/.dev.env
+    depends_on:
+      - server
+      - minio
+      - db
+    command: >
+      bash -c 'celery -A settings.celery_app beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler & \
+        watchmedo auto-restart --directory=./ --pattern="*" --recursive -- celery -A settings.celery_app worker -l INFO --pool=gevent --concurrency=30 -Q temtubaaqui_development'
+    ports:
+      - "6901:6901"
+    restart: unless-stopped
+    volumes:
+      - ./settings:/usr/src/app/settings
+      - ./app:/usr/src/app/app
+    networks:
+      - temtubaaqui-network
+
+  db:
+    image: postgres:15.3
+    command: ["postgres", "-c", "max_connections=1000"]
+    # command: ["postgres", "-c", "log_statement=all"]
+    ports:
+      - "5432:5432"
+    volumes:
+      - "./dockervolume/db/pgdata:/var/lib/postgresql/data"
+    environment:
+      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_DB: "postgres"
+    networks:
+      - temtubaaqui-network
+
+  minio:
+    image: minio/minio
+    hostname: "minio"
+    volumes:
+      - ./.minio:/minio_files
+    env_file: 
+      - env/.dev.env
+    command: 'minio server /minio_files --console-address ":9001"'
+    ports:
+      - 9000:9000
+      - 9001:9001
+    networks:
+      - temtubaaqui-network
+
+  redis:
+    image: redis:5.0
+    hostname: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - temtubaaqui-network
+
+networks:
+  temtubaaqui-network:
+    external: false
+    name: temtubaaqui-network
