@@ -1,5 +1,5 @@
 from django.contrib import admin
 
-from app.core import models
+from app.core.models import management
 
 # Register your models here.

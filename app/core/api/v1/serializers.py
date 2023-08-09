@@ -1,5 +1,5 @@
 from rest_framework import serializers
 
-from app.core import models
+from app.core.models import management
 
 

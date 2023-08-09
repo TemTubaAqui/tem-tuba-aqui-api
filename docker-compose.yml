@@ -21,9 +21,12 @@ services:
     ports:
       - "8000:8000"
       - "6900:6900"
+      - "8888:8888"
     volumes:
       - ./settings:/usr/src/app/settings
       - ./app:/usr/src/app/app
+      - ./scripts:/usr/src/app/scripts
+      - ./notebooks:/usr/src/app/notebooks
     networks:
       - temtubaaqui-network
     extra_hosts:

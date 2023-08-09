@@ -8,3 +8,5 @@
 !env/
 !requirements/
 !settings/
+!scripts/
+!notebooks/
