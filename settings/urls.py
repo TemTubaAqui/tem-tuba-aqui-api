@@ -3,6 +3,8 @@ from django.urls import include, re_path
 
 apps_urls = [
     re_path(r"^", include("app.core.urls")),
+    re_path(r"^", include("app.docs.urls")),
+    re_path(r"^", include("app.documents.urls")),
 ]
 
 django_urls = [

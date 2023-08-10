@@ -9,7 +9,7 @@ services:
     tty: true
     environment:
       - IS_ON_PREMISE=false
-    env_file: 
+    env_file:
       - env/.dev.env
     command: >
       bash -c 'python manage.py collectstatic --noinput &&
@@ -77,7 +77,7 @@ services:
     hostname: "minio"
     volumes:
       - ./.minio:/minio_files
-    env_file: 
+    env_file:
       - env/.dev.env
     command: 'minio server /minio_files --console-address ":9001"'
     ports:
