@@ -5,8 +5,6 @@ from rest_framework.generics import get_object_or_404
 
 
 class FileArtifactViewset(viewsets.ModelViewSet):
-    permission_classes = (permissions.DjangoModelPermissionsOrAnonReadOnly,)
-
     serializer_classes = {
         "create": serializers.CreateFileArtifactSerializer,
         "update": serializers.UpdateFileArtifactSerializer,
@@ -14,10 +12,17 @@ class FileArtifactViewset(viewsets.ModelViewSet):
         "default": serializers.FileArtifactSerializer,
     }
 
+    def get_permissions(self):
+        classes = [permissions.DjangoModelPermissionsOrAnonReadOnly]
+        if self.action in ["create", "update", "partial_update"]:
+            classes.append(permissions.IsAuthenticated)
+
+        return [permission() for permission in classes]
+
     def get_queryset(self):
         return models.FileArtifact.objects.all()
 
-    def get_object(self):
+    def get_object(self) -> models.FileArtifact:
         obj = get_object_or_404(self.get_queryset(), name=self.kwargs["name"])
         self.check_object_permissions(self.request, obj)
         return obj

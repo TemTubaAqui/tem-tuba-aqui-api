@@ -183,6 +183,8 @@ AWS_S3_ENDPOINT_URL = None
 AWS_S3_SIGNATURE_VERSION = "s3v4"
 
 if DEBUG or ENVIRONMENT == "test":
+    DEFAULT_FILE_STORAGE = "app.shared.aws.storage.MinioStorage"
+
     MINIO_ACCESS_KEY = os.getenv("MINIO_ROOT_USER")
     MINIO_SECRET_KEY = os.getenv("MINIO_ROOT_PASSWORD")
     MINIO_BUCKET_NAME = os.getenv("MINIO_BUCKET_NAME")
