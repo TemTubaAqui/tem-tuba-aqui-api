@@ -25,6 +25,10 @@ django-cors-headers==4.2.0
 ipython==7.18.1
 ipython-genutils==0.2.0
 
+# beautifulsoup
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
 # Project Dependencies
 requests==2.29.0
 celery==5.3.1
