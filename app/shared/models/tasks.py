@@ -1,13 +1,18 @@
+import logging
+from contextlib import contextmanager
+
 from django.db import models
 from django.utils import timezone
 
-from contextlib import contextmanager
+logger = logging.getLogger(__name__)
+
 
 class RequestStatus(models.TextChoices):
-    PENDING = 'PENDING'
-    RUNNING = 'RUNNING'
-    SUCCESS = 'SUCCESS'
-    FAILED = 'FAILED'
+    PENDING = "PENDING"
+    RUNNING = "RUNNING"
+    SUCCESS = "SUCCESS"
+    FAILED = "FAILED"
+
 
 class DateMixins(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
@@ -16,8 +21,11 @@ class DateMixins(models.Model):
     class Meta:
         abstract = True
 
-class BaseRequest(DateMixins):
-    status = models.CharField(max_length=10, choices=RequestStatus.choices, default=RequestStatus.PENDING)
+
+class Task(DateMixins):
+    status = models.CharField(
+        max_length=10, choices=RequestStatus.choices, default=RequestStatus.PENDING
+    )
     message = models.JSONField(null=True, blank=True)
     error = models.JSONField(null=True, blank=True)
 
@@ -44,17 +52,20 @@ class BaseRequest(DateMixins):
 
     @contextmanager
     def run(self):
+        logger.info(f"Running {self.__class__.__name__} {self.id}")
         self.transition_to_running()
         try:
             yield
         except Exception as e:
-            error = { "error": str(e) }
+            logger.error(f"{self.__class__.__name__} {self.id} failed with error: {e}")
+            error = {"error": str(e)}
             self.transition_to_failed(error=error)
             raise e
         else:
+            logger.info(f"{self.__class__.__name__} {self.id} finished successfully")
             self.transition_to_success()
         finally:
             pass
-    
+
     class Meta:
         abstract = True

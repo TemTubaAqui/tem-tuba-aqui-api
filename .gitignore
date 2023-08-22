@@ -6,9 +6,11 @@ dockervolume
 # Python
 venv
 __pycache__
+.ipynb_checkpoints/
 
-# Local env
+# Local
 env/.local.env
+temp/
 
 # OS
 .DS_Store

@@ -1,0 +1,240 @@
+{
+	"info": {
+		"_postman_id": "4fbf554f-e582-4055-9a5a-4d09d4431f65",
+		"name": "TTA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9282292"
+	},
+	"item": [
+		{
+			"name": "Files",
+			"item": [
+				{
+					"name": "Retrieve",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{API_V1_URL}}/files/:file_name",
+							"host": [
+								"{{API_V1_URL}}"
+							],
+							"path": [
+								"files",
+								":file_name"
+							],
+							"variable": [
+								{
+									"key": "file_name",
+									"value": "resume"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{API_V1_URL}}/files/",
+							"host": [
+								"{{API_V1_URL}}"
+							],
+							"path": [
+								"files",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/viniciussouza/Downloads/vinicius_souza_resume.pdf"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{API_V1_URL}}/files/:file_name/",
+							"host": [
+								"{{API_V1_URL}}"
+							],
+							"path": [
+								"files",
+								":file_name",
+								""
+							],
+							"variable": [
+								{
+									"key": "file_name",
+									"value": "resume"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/viniciussouza/Downloads/vinicius_souza_resume.pdf"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{API_V1_URL}}/files/:file_name/",
+							"host": [
+								"{{API_V1_URL}}"
+							],
+							"path": [
+								"files",
+								":file_name",
+								""
+							],
+							"variable": [
+								{
+									"key": "file_name",
+									"value": "resume"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Beaches",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{API_V1_URL}}/beaches/?search=&page=4",
+							"host": [
+								"{{API_V1_URL}}"
+							],
+							"path": [
+								"beaches",
+								""
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": ""
+								},
+								{
+									"key": "page",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "noauth"
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"const token = pm.variables.get(\"TOKEN\")",
+					"",
+					"pm.request.addHeader({",
+					"    key: 'Authorization',",
+					"    value: `Token ${token}`",
+					"})"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "API_V1_URL",
+			"value": "http://localhost:8000/api/v1",
+			"type": "string"
+		},
+		{
+			"key": "TOKEN",
+			"value": "cf9516a38a61f2c4030d0b5c9f4da7be5050fb8e",
+			"type": "string"
+		}
+	]
+}

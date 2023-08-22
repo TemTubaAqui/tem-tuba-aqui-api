@@ -1,0 +1,2711 @@
+[
+{
+    "model": "core.sharkattack",
+    "pk": 1,
+    "fields": {
+        "beach": 86,
+        "date": "2017-02-06",
+        "type": "Provoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Fernando de Noronha Marine Park",
+        "activity": "Grabbing shark for a selfie",
+        "victim_name": "female",
+        "victim_gender": "F",
+        "victim_age": 35,
+        "victim_injury": "Minor injury to finger, PROVOKED INCIDENT",
+        "fatal": false,
+        "time": "Afternoon",
+        "species": "Lemon shark pup",
+        "source": "O Popular, 2/7/2017"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 2,
+    "fields": {
+        "beach": 3,
+        "date": "2006-07-10",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Body recovered at Goiana",
+        "activity": null,
+        "victim_name": "Unidentified",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": null,
+        "species": "Bull or tiger shark",
+        "source": "Qualittas; F. Hazin; N. Souza; Folho de Pernambuco, 7/12/2006"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 3,
+    "fields": {
+        "beach": 86,
+        "date": "2015-12-21",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Fernano de Noronha",
+        "activity": "Scuba diving",
+        "victim_name": "Márcio de Castro Palma",
+        "victim_gender": "M",
+        "victim_age": 32,
+        "victim_injury": "Right hand & part of forearm removed",
+        "fatal": false,
+        "time": null,
+        "species": "Tiger shark, 1.5 m",
+        "source": "Fox News, 12/22/2015"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 4,
+    "fields": {
+        "beach": 33,
+        "date": "2011-11-12",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Punta Del Chifre Beach, Olinda",
+        "activity": "Surfing",
+        "victim_name": "Jerônimo Pereira da Paz",
+        "victim_gender": "M",
+        "victim_age": 35,
+        "victim_injury": "Legs bitten",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "H. Nickel & A. Brenneka, SharkAttackSurvivors.com"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 5,
+    "fields": {
+        "beach": 43,
+        "date": "2013-05-23",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Coral Cove Beach",
+        "activity": null,
+        "victim_name": "José Rogério da Silva",
+        "victim_gender": "M",
+        "victim_age": 41,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": null,
+        "species": null,
+        "source": "JC Online, 6/6/2013"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 6,
+    "fields": {
+        "beach": 33,
+        "date": "2006-06-18",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Punta Del Chifre Beach, Olinda",
+        "activity": "Body boarding",
+        "victim_name": "Humberto Pessoa Batista",
+        "victim_gender": "M",
+        "victim_age": 27,
+        "victim_injury": "Left thigh bitten FATAL",
+        "fatal": true,
+        "time": "09h00",
+        "species": null,
+        "source": "globalsurfnews.com"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 7,
+    "fields": {
+        "beach": 33,
+        "date": "2008-06-11",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Punta Del Chifre, Olinda",
+        "activity": "Surfing",
+        "victim_name": "Juan Rodrigues Galvao",
+        "victim_gender": "M",
+        "victim_age": 14,
+        "victim_injury": "Laceration to left leg & foot",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "O Globo, 6/12/2008"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 8,
+    "fields": {
+        "beach": 43,
+        "date": "2012-08-26",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Coral Cove, Cabo de Santo Agostinho",
+        "activity": "Swimming",
+        "victim_name": "Tiago José de Oliveira da Silva",
+        "victim_gender": "M",
+        "victim_age": 18,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": "Afternoon",
+        "species": null,
+        "source": "JC Online, 8/30/2012"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 9,
+    "fields": {
+        "beach": 12,
+        "date": "2007-12-07",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Itamaracá",
+        "activity": "Removing fish from a trap",
+        "victim_name": "Malvis Cristino de Souza",
+        "victim_gender": "M",
+        "victim_age": 28,
+        "victim_injury": "20 cm injury to left foot",
+        "fatal": false,
+        "time": null,
+        "species": "2.27 m shark",
+        "source": "JC online, 12/8/2007"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 10,
+    "fields": {
+        "beach": 35,
+        "date": "2011-07-31",
+        "type": "Invalid",
+        "country": "BR",
+        "state": "PE",
+        "location": "Praia do Pina",
+        "activity": "Swimming",
+        "victim_name": "Gabriel Alves dos Santos",
+        "victim_gender": "M",
+        "victim_age": 14,
+        "victim_injury": "Cause of death may have been drowning; remains scavenged by sharks",
+        "fatal": null,
+        "time": null,
+        "species": "Shark involvement prior to death not confirmed",
+        "source": "surfguru.com.br"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 11,
+    "fields": {
+        "beach": 35,
+        "date": "2011-06-29",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Praia do Pina",
+        "activity": "Surfing",
+        "victim_name": "Malisson Lima",
+        "victim_gender": "M",
+        "victim_age": 21,
+        "victim_injury": "Lacerations to right thigh",
+        "fatal": false,
+        "time": "10h00",
+        "species": null,
+        "source": "USA Today, 6/29/2011"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 12,
+    "fields": {
+        "beach": 24,
+        "date": "1991-04-24",
+        "type": "Provoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Praia de Pau Amarelo, Recife",
+        "activity": "Fishing",
+        "victim_name": "L.F.",
+        "victim_gender": null,
+        "victim_age": null,
+        "victim_injury": "2 fingers severed by netted shark PROVOKED INCIDENT",
+        "fatal": false,
+        "time": "Afternoon",
+        "species": "170-kg, 2.8 m shark",
+        "source": "M. Szpilman"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 13,
+    "fields": {
+        "beach": 37,
+        "date": "2002-10-14",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade Beach, Jaboatão dos Guararapes City, Recife",
+        "activity": "Swimming",
+        "victim_name": "Luis Soares de Arruda",
+        "victim_gender": "M",
+        "victim_age": 36,
+        "victim_injury": "FATAL, body not recovered",
+        "fatal": true,
+        "time": "16h00",
+        "species": "Possibly a bull shark or tiger shark",
+        "source": "P.M. Lopes, GSAF"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 14,
+    "fields": {
+        "beach": 37,
+        "date": "2004-05-22",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade Beach, Recife",
+        "activity": "Wading",
+        "victim_name": "Naiane Barbosa Bringel",
+        "victim_gender": "F",
+        "victim_age": 24,
+        "victim_injury": "Hips & thighs bitten",
+        "fatal": false,
+        "time": "16h00",
+        "species": null,
+        "source": "P.M. Lopes, GSAF, JC, 5/23/2004"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 15,
+    "fields": {
+        "beach": 72,
+        "date": "2021-01-13",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Cacimba do Padre Beach",
+        "activity": "Surfing",
+        "victim_name": "Sergo Noronha",
+        "victim_gender": "M",
+        "victim_age": 52,
+        "victim_injury": "Puncture wounds to right hand",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "K. McMurray, TrackingSharks.com"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 16,
+    "fields": {
+        "beach": 37,
+        "date": "2004-05-23",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade Beach",
+        "activity": "Swimming",
+        "victim_name": "Walmir Pereira da Silva",
+        "victim_gender": "M",
+        "victim_age": 17,
+        "victim_injury": "Left hand, foot severed &  left calf & arm bitten",
+        "fatal": false,
+        "time": "14h30",
+        "species": "Bull shark",
+        "source": "P. M. Lopes, GSAF; JC, 5/24/2004"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 17,
+    "fields": {
+        "beach": 36,
+        "date": "2013-07-22",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem Beach, Recife",
+        "activity": "Swimming",
+        "victim_name": "Bruna Silva Gobbi",
+        "victim_gender": "F",
+        "victim_age": 18,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": "13h20",
+        "species": null,
+        "source": "G! Pernambuco, 7/22/2013"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 18,
+    "fields": {
+        "beach": 37,
+        "date": "2004-03-29",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade Beach",
+        "activity": "Body boarding",
+        "victim_name": "Alcindo de Souza Leão Júnior",
+        "victim_gender": "M",
+        "victim_age": 22,
+        "victim_injury": "Lower left leg bitten, surgically amputated",
+        "fatal": false,
+        "time": "07h30",
+        "species": "bull shark",
+        "source": "P.M. Lopes, GSAF; Diaro, 3/30/2004"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 19,
+    "fields": {
+        "beach": 36,
+        "date": "1998-10-04",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem Beach, Recife",
+        "activity": "Surfing",
+        "victim_name": "Júlio César de Barros Correia",
+        "victim_gender": "M",
+        "victim_age": 17,
+        "victim_injury": "Right leg bitten",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "Folha de S.Paul, 6/10/1998"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 20,
+    "fields": {
+        "beach": 37,
+        "date": "2004-02-29",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade Beach, Recife",
+        "activity": "Swimming",
+        "victim_name": "Edimilson Henrique dos Santos",
+        "victim_gender": "M",
+        "victim_age": 29,
+        "victim_injury": "FATAL, right thigh & hip bitten",
+        "fatal": true,
+        "time": "15h00",
+        "species": null,
+        "source": "P. M. Lopez, GSAF; Northern Territory News, 3/2/2004, p.11"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 21,
+    "fields": {
+        "beach": 33,
+        "date": "2015-03-31",
+        "type": "Invalid",
+        "country": "BR",
+        "state": "PE",
+        "location": "Praia del Chifre, Olinda",
+        "activity": "Surfing",
+        "victim_name": "Diego Gomes Mota",
+        "victim_gender": "M",
+        "victim_age": 23,
+        "victim_injury": "Injury to left thigh from unidentified species of fish; injuries inconsistent with shark bite",
+        "fatal": null,
+        "time": "11h00",
+        "species": "No shark involvement",
+        "source": "Globo, 3/31/2015"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 22,
+    "fields": {
+        "beach": 36,
+        "date": "2006-05-21",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem Beach, Recife",
+        "activity": "Surfing",
+        "victim_name": "Rogério Antônio de Carvalho",
+        "victim_gender": "M",
+        "victim_age": 33,
+        "victim_injury": "Injuries to left thigh, calf & foot",
+        "fatal": false,
+        "time": "11h30",
+        "species": null,
+        "source": "Avisa Nordland, 5/22/2006"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 23,
+    "fields": {
+        "beach": 36,
+        "date": "1999-05-01",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem Beach, Recife",
+        "activity": "Surfing",
+        "victim_name": "Charles Heitor Barbosa Pires",
+        "victim_gender": "M",
+        "victim_age": 21,
+        "victim_injury": "Leg & hands bitten",
+        "fatal": false,
+        "time": "Afternoon",
+        "species": "Tiger shark, 2.5 m [8.25']",
+        "source": "P.M. Lopez, GSAF; O. Gadig; JC, 5/3/1999"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 24,
+    "fields": {
+        "beach": 36,
+        "date": "2002-03-24",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem Beach, Recife",
+        "activity": "Swimming",
+        "victim_name": "Fábio Fernandes Silva",
+        "victim_gender": "M",
+        "victim_age": 16,
+        "victim_injury": "Severe kacerations, FATAL",
+        "fatal": true,
+        "time": "17h00",
+        "species": null,
+        "source": "JCOnline"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 25,
+    "fields": {
+        "beach": 36,
+        "date": "1998-11-02",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem Beach, Recife",
+        "activity": "Surfing",
+        "victim_name": "Claudio Roberto Florencio de Freitas",
+        "victim_gender": "M",
+        "victim_age": 22,
+        "victim_injury": "FATAL, left forearm severed",
+        "fatal": true,
+        "time": "Late afternoon",
+        "species": "Though to involve a white shark",
+        "source": "O. Gadig & A. Xureb"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 26,
+    "fields": {
+        "beach": 24,
+        "date": "2003-04-23",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Pau Amarelo Beach, Paulista District (17 km from Recife)",
+        "activity": "Surfing",
+        "victim_name": "Tiago Augusto da Silva Machado",
+        "victim_gender": "M",
+        "victim_age": 17,
+        "victim_injury": "Hand & foot lacerated,  lower left leg severely bitten, necessitating surgical amputation",
+        "fatal": false,
+        "time": "17h00",
+        "species": "Bull shark",
+        "source": "P. M. Lopes, GSAF; N. Souza da Silva; JC, 4/24/2003"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 27,
+    "fields": {
+        "beach": 36,
+        "date": "2002-12-01",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem Beach, Recife",
+        "activity": "Surfing",
+        "victim_name": "Aylson Gadelha",
+        "victim_gender": "M",
+        "victim_age": 19,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": null,
+        "species": null,
+        "source": "O. Gadig"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 28,
+    "fields": {
+        "beach": 37,
+        "date": "2002-09-16",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade Beach, Jaboatão dos Guararapes City",
+        "activity": "Swimming",
+        "victim_name": "Fabrício José de Carvalho",
+        "victim_gender": "M",
+        "victim_age": 19,
+        "victim_injury": "Left thigh bitten, leg surgically amputated",
+        "fatal": false,
+        "time": "15h00",
+        "species": "Bull or tiger shark",
+        "source": "P.M. Lopes, GSAF"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 29,
+    "fields": {
+        "beach": 37,
+        "date": "2002-07-10",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade Beach, Recife",
+        "activity": "Surfing",
+        "victim_name": "Mário César Carneiro da Silva",
+        "victim_gender": "M",
+        "victim_age": 22,
+        "victim_injury": "Right hand severed",
+        "fatal": false,
+        "time": "15h00",
+        "species": "Bull or tiger shark",
+        "source": "P.M. Lopes, GSAF"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 30,
+    "fields": {
+        "beach": 36,
+        "date": "2001-03-03",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem Beach, Recife",
+        "activity": "Swimming",
+        "victim_name": "Carlo Alberto Brasileiro",
+        "victim_gender": "M",
+        "victim_age": 20,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": null,
+        "species": null,
+        "source": "JC, 3/7/2001; Orlando Sentinel, 3/9/2001, p.A13"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 31,
+    "fields": {
+        "beach": 36,
+        "date": "2004-08-21",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem Beach, Recife",
+        "activity": "Bathing",
+        "victim_name": "Wagner da Silva",
+        "victim_gender": "M",
+        "victim_age": 24,
+        "victim_injury": "Calf bitten & both hands injured",
+        "fatal": false,
+        "time": "13h00",
+        "species": "Tiger shark, 1.5 m",
+        "source": "P. M. Lopes, GSAF, 8/22/2004"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 32,
+    "fields": {
+        "beach": 37,
+        "date": "2018-06-03",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade Beach, Recife",
+        "activity": "Swimming",
+        "victim_name": "Jose Ernesto da Silva",
+        "victim_gender": "M",
+        "victim_age": 18,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": "Late afternoon",
+        "species": "Tiger shark",
+        "source": "Diario de Pernambuco, 6/4/2018"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 33,
+    "fields": {
+        "beach": 36,
+        "date": "1999-12-26",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem Beach, Recife",
+        "activity": "Surfing",
+        "victim_name": "Alton Cicero da Silva",
+        "victim_gender": "M",
+        "victim_age": 18,
+        "victim_injury": "Leg bitten, surgically amputated",
+        "fatal": false,
+        "time": null,
+        "species": "Thought to involve a white, bull or tiger shark",
+        "source": "L. A. Pereira & J. Morris; JC, 12/27/1999"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 34,
+    "fields": {
+        "beach": 38,
+        "date": "1995-07-07",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Candeias",
+        "activity": "Surfing",
+        "victim_name": "Clélio Rosendo Falcão Filho",
+        "victim_gender": "M",
+        "victim_age": 18,
+        "victim_injury": "Arm bitten, FATAL",
+        "fatal": true,
+        "time": null,
+        "species": null,
+        "source": "JCOnline"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 35,
+    "fields": {
+        "beach": 36,
+        "date": "1997-09-16",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem, Recife",
+        "activity": "Swimming",
+        "victim_name": "Pedro Fernandes da Silva",
+        "victim_gender": "M",
+        "victim_age": 20,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": null,
+        "species": null,
+        "source": "JCOnline"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 36,
+    "fields": {
+        "beach": 37,
+        "date": "1980-11-11",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade",
+        "activity": "Swimming",
+        "victim_name": "Ibson Gomes  Vieira",
+        "victim_gender": "M",
+        "victim_age": 16,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": null,
+        "species": null,
+        "source": "JC Online, 6/25/2012"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 37,
+    "fields": {
+        "beach": 37,
+        "date": "2004-05-01",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade",
+        "activity": "Swimming",
+        "victim_name": "Orlando Oscar da Silva",
+        "victim_gender": "M",
+        "victim_age": 22,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": "Afternoon",
+        "species": null,
+        "source": "JCOnline, 5/2/2004"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 38,
+    "fields": {
+        "beach": 37,
+        "date": "1994-12-13",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade",
+        "activity": "Surfing",
+        "victim_name": "Tiago Costa de Lima",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "Survived",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "JCOnline; M. Szpilman"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 39,
+    "fields": {
+        "beach": 39,
+        "date": "1996-10-28",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Barra de Jangada",
+        "activity": "Surfing",
+        "victim_name": "Gilvan Jaime de Freitas Júnior",
+        "victim_gender": null,
+        "victim_age": null,
+        "victim_injury": "Leg bitten",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "D. Duarte"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 40,
+    "fields": {
+        "beach": 35,
+        "date": "2004-09-08",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Pina, Recife",
+        "activity": "Swimming",
+        "victim_name": "Unidentified",
+        "victim_gender": null,
+        "victim_age": null,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": null,
+        "species": null,
+        "source": "JCOnline"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 41,
+    "fields": {
+        "beach": 37,
+        "date": "2009-09-13",
+        "type": "Provoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade, Recife",
+        "activity": null,
+        "victim_name": "Maurício da Silva Monteiro",
+        "victim_gender": "M",
+        "victim_age": 34,
+        "victim_injury": "Cause of death was drowning; his remains were scavenged by sharks",
+        "fatal": true,
+        "time": null,
+        "species": null,
+        "source": "C. Ekstander, GSAF"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 42,
+    "fields": {
+        "beach": 37,
+        "date": "1994-10-17",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade",
+        "activity": "Surfing",
+        "victim_name": "Ednaldo Jose da Silva",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "Survived",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "JCOnline"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 43,
+    "fields": {
+        "beach": 37,
+        "date": "1994-10-18",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade",
+        "activity": "Surfing",
+        "victim_name": "Unidentified",
+        "victim_gender": null,
+        "victim_age": null,
+        "victim_injury": "Survived",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "JCOnline"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 44,
+    "fields": {
+        "beach": 36,
+        "date": "1998-04-01",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem, Recife",
+        "activity": "Swimming",
+        "victim_name": "Unidentified",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": null,
+        "species": null,
+        "source": "JC, 4/2/1998"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 45,
+    "fields": {
+        "beach": 40,
+        "date": "1994-12-01",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Paiva",
+        "activity": "Surfing",
+        "victim_name": "Laudenilson Gomes de Lima",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": null,
+        "species": null,
+        "source": "San Jose Mercury News, 1/6/1995, p.12A"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 46,
+    "fields": {
+        "beach": 40,
+        "date": "1994-12-11",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Paiva",
+        "activity": "Surfing",
+        "victim_name": "Jorge de Oliveira Andrade",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "Right thigh bitten",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "D. Duarte"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 47,
+    "fields": {
+        "beach": 38,
+        "date": "2002-01-03",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Candeias",
+        "activity": "Swimming",
+        "victim_name": "Unidentified",
+        "victim_gender": null,
+        "victim_age": null,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": null,
+        "species": null,
+        "source": "JCOnline"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 48,
+    "fields": {
+        "beach": 37,
+        "date": "2008-06-01",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade, Recife",
+        "activity": "Swimming",
+        "victim_name": "Wellington dos Santos",
+        "victim_gender": "M",
+        "victim_age": 14,
+        "victim_injury": "Hand severed, buttocks bitten",
+        "fatal": false,
+        "time": "15h00",
+        "species": "Bull shark",
+        "source": "Associated Press"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 49,
+    "fields": {
+        "beach": 36,
+        "date": "2017-01-24",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem, Recife",
+        "activity": "Swimming",
+        "victim_name": "Arthur Andrade",
+        "victim_gender": "M",
+        "victim_age": 21,
+        "victim_injury": "Minor laceration to ring finger",
+        "fatal": false,
+        "time": "13h20",
+        "species": null,
+        "source": "K. McMurray, Tracking Sharks"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 50,
+    "fields": {
+        "beach": 37,
+        "date": "2018-04-15",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade",
+        "activity": "Swimming",
+        "victim_name": "Pablo de Melo",
+        "victim_gender": "M",
+        "victim_age": 34,
+        "victim_injury": "Multiple severe injuries to arms and leg, leg subsequently surgically amputated",
+        "fatal": null,
+        "time": null,
+        "species": null,
+        "source": "Globo, 4/16/2018"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 51,
+    "fields": {
+        "beach": 37,
+        "date": "2021-07-25",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade",
+        "activity": "Squatting in the water",
+        "victim_name": "Everton dos Reis Guimarães",
+        "victim_gender": "M",
+        "victim_age": 32,
+        "victim_injury": "Lacerations to poster thigh and buttock",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "K. McMurray, TrackingSharks.com"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 52,
+    "fields": {
+        "beach": 36,
+        "date": "1997-07-17",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem, Recife",
+        "activity": "Surfing",
+        "victim_name": "José Roberto Paraizo de Albuquerque",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "Survived",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "JCOnline"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 53,
+    "fields": {
+        "beach": 39,
+        "date": "1996-10-28",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Barra de Jangada",
+        "activity": "Surfing",
+        "victim_name": "Luis Henrique Messias",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "Survived",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "JCOnline"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 54,
+    "fields": {
+        "beach": 36,
+        "date": "1993-06-30",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem, Recife",
+        "activity": "Swimming",
+        "victim_name": "Robson Antonio R. Santos",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": null,
+        "species": null,
+        "source": "JCOnline"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 55,
+    "fields": {
+        "beach": 36,
+        "date": "1994-03-01",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem, Recife",
+        "activity": "Surfing",
+        "victim_name": "Albano Gomes Dias Filho",
+        "victim_gender": "M",
+        "victim_age": 25,
+        "victim_injury": "Leg bitten",
+        "fatal": false,
+        "time": null,
+        "species": "2 m shark",
+        "source": "O. Gadig, BRASAF"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 56,
+    "fields": {
+        "beach": 36,
+        "date": "1995-08-27",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem, Recife",
+        "activity": "Surfing",
+        "victim_name": "Aluisio Francisco da Silva Filho",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "Survived",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "JCOnline"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 57,
+    "fields": {
+        "beach": 37,
+        "date": "1994-01-31",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade",
+        "activity": "Swimming",
+        "victim_name": "Sérgio Adriano Gomes Silva",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "Right leg bitten",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "M. Szpilman, p.139"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 58,
+    "fields": {
+        "beach": 36,
+        "date": "1994-07-24",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem, Recife",
+        "activity": "Surfing",
+        "victim_name": "Carlos Frederico Gomes Martins",
+        "victim_gender": "M",
+        "victim_age": 15,
+        "victim_injury": "Left foot severed",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "C.F.G. Martins; JCOnline"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 59,
+    "fields": {
+        "beach": 37,
+        "date": "1947-10-10",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade",
+        "activity": "Swimming",
+        "victim_name": "Father Serafin de Oliveira",
+        "victim_gender": "M",
+        "victim_age": 25,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": null,
+        "species": null,
+        "source": "JC Online, 6/25/2012"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 60,
+    "fields": {
+        "beach": 36,
+        "date": "1998-07-26",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem, Recife",
+        "activity": "Surfing",
+        "victim_name": "Rodrigo Rocha Menezes",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "Lacerations to left foot",
+        "fatal": false,
+        "time": "17h30",
+        "species": null,
+        "source": "JCOnline"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 61,
+    "fields": {
+        "beach": 37,
+        "date": "2021-07-10",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade",
+        "activity": "Wading",
+        "victim_name": "Marcelo Rocha Santos",
+        "victim_gender": "M",
+        "victim_age": 51,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": "13h50",
+        "species": null,
+        "source": "K. McMurray, TrackingSharks.com"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 62,
+    "fields": {
+        "beach": 37,
+        "date": "1993-01-23",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade",
+        "activity": "Body boarding",
+        "victim_name": "Charles Roberto Soares Veras",
+        "victim_gender": "M",
+        "victim_age": 15,
+        "victim_injury": "Left leg bitten",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "D. Duarte"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 63,
+    "fields": {
+        "beach": 40,
+        "date": "1993-03-27",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Paiva",
+        "activity": "Surfing",
+        "victim_name": "José Ricardo C. Gouveia",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "Survived",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "JCOnline"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 64,
+    "fields": {
+        "beach": 37,
+        "date": "2009-09-07",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade, Recife",
+        "activity": "Swimming, attempting to rescue a girl  believed to be drowning",
+        "victim_name": "Geovanni Tiago Barbosa",
+        "victim_gender": "M",
+        "victim_age": 15,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": "Afternoon",
+        "species": null,
+        "source": "C. Eksander, GSAF"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 65,
+    "fields": {
+        "beach": 36,
+        "date": "1994-07-08",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem, Recife",
+        "activity": "Surfing",
+        "victim_name": "Sandro Paulo dos Santos",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "Survived",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "JCOnline"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 66,
+    "fields": {
+        "beach": 36,
+        "date": "1994-07-09",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem, Recife",
+        "activity": "Swimming",
+        "victim_name": "Alessandro Gomes de Souza",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": null,
+        "species": null,
+        "source": "JCOnline"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 67,
+    "fields": {
+        "beach": 40,
+        "date": "1997-07-02",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Paiva",
+        "activity": "Surfing",
+        "victim_name": "Jurandir Amorim Silva",
+        "victim_gender": null,
+        "victim_age": null,
+        "victim_injury": "Right thigh bitten",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "D. Duarte; Globo, 7/2/1997"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 68,
+    "fields": {
+        "beach": 35,
+        "date": "2002-05-10",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Pina, Recife",
+        "activity": "Surfing",
+        "victim_name": "Paulo Fernandes Alves Ferreira",
+        "victim_gender": "M",
+        "victim_age": 40,
+        "victim_injury": "Leg injured",
+        "fatal": false,
+        "time": "17h00",
+        "species": null,
+        "source": "JCOnline, 5/11/2002"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 69,
+    "fields": {
+        "beach": 37,
+        "date": "1992-06-28",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade",
+        "activity": "Swimming",
+        "victim_name": "Ubiratan Martins Gomes",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": null,
+        "species": null,
+        "source": "D .Duarte"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 70,
+    "fields": {
+        "beach": 36,
+        "date": "1992-09-18",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem, Recife",
+        "activity": "Body boarding",
+        "victim_name": "Eduardo Rodrigues da Cruz",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "Left leg severely bitten",
+        "fatal": false,
+        "time": "Afternoon",
+        "species": null,
+        "source": "D. Duarte;"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 71,
+    "fields": {
+        "beach": 36,
+        "date": "1996-04-07",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem, Recife",
+        "activity": "Swimming",
+        "victim_name": "Marcos Santana Silva",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": null,
+        "species": null,
+        "source": "JCOnline"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 72,
+    "fields": {
+        "beach": 37,
+        "date": "2006-04-09",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade",
+        "activity": "Swimming",
+        "victim_name": "José Ivair Pereira",
+        "victim_gender": "M",
+        "victim_age": 35,
+        "victim_injury": "Left leg bitten",
+        "fatal": false,
+        "time": "Afternoon",
+        "species": "Tiger shark",
+        "source": "Diario de Pernambuco, 4/10/2006"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 73,
+    "fields": {
+        "beach": 37,
+        "date": "2003-06-24",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade, Recife",
+        "activity": null,
+        "victim_name": "Moses Nunes de Albuquerque Junior",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": null,
+        "species": null,
+        "source": "JCOnline, 6/23/2012"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 74,
+    "fields": {
+        "beach": 36,
+        "date": "1992-09-10",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Boa Viagem, Recife",
+        "activity": "Swimming",
+        "victim_name": "Enoque Pereira dos Santos",
+        "victim_gender": "M",
+        "victim_age": null,
+        "victim_injury": "FATAL",
+        "fatal": true,
+        "time": null,
+        "species": null,
+        "source": "D. Duarte"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 75,
+    "fields": {
+        "beach": 37,
+        "date": "1995-01-02",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": "Piedade",
+        "activity": "Surfing",
+        "victim_name": "Humberto Moraes de Souza",
+        "victim_gender": "M",
+        "victim_age": 17,
+        "victim_injury": "Foot bitten",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "San Jose Mercury News, 1/6/1995, p.12A"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 76,
+    "fields": {
+        "beach": 35,
+        "date": "2006-08-22",
+        "type": "Invalid",
+        "country": "BR",
+        "state": "PE",
+        "location": "Pina",
+        "activity": null,
+        "victim_name": "Tatiano Silva de Melo",
+        "victim_gender": "M",
+        "victim_age": 17,
+        "victim_injury": "Shark bites may have been post mortem",
+        "fatal": null,
+        "time": null,
+        "species": "Shark involvement prior to death was not confirmed",
+        "source": "JC Oline 8/24/2006"
+    }
+},
+{
+    "model": "core.sharkattack",
+    "pk": 77,
+    "fields": {
+        "beach": 1,
+        "date": "1996-10-01",
+        "type": "Unprovoked",
+        "country": "BR",
+        "state": "PE",
+        "location": null,
+        "activity": null,
+        "victim_name": "Josebias Dias",
+        "victim_gender": null,
+        "victim_age": null,
+        "victim_injury": "Survived",
+        "fatal": false,
+        "time": null,
+        "species": null,
+        "source": "D. Duarte"
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 1,
+    "fields": {
+        "city": "Goiana",
+        "state": "PE",
+        "country": "BR",
+        "name": "Carne de Vaca",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 2,
+    "fields": {
+        "city": "Goiana",
+        "state": "PE",
+        "country": "BR",
+        "name": "Pontas de Pedras",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 3,
+    "fields": {
+        "city": "Goiana",
+        "state": "PE",
+        "country": "BR",
+        "name": "Barra de Catuama",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 4,
+    "fields": {
+        "city": "Goiana",
+        "state": "PE",
+        "country": "BR",
+        "name": "catuama",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 5,
+    "fields": {
+        "city": "Goiana",
+        "state": "PE",
+        "country": "BR",
+        "name": "Atapuz",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 6,
+    "fields": {
+        "city": "Goiana",
+        "state": "PE",
+        "country": "BR",
+        "name": "tabatinga",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 7,
+    "fields": {
+        "city": "Ilha de Itamaracá",
+        "state": "PE",
+        "country": "BR",
+        "name": "Pontal da Ilha",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 8,
+    "fields": {
+        "city": "Ilha de Itamaracá",
+        "state": "PE",
+        "country": "BR",
+        "name": "Fortinho",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 9,
+    "fields": {
+        "city": "Ilha de Itamaracá",
+        "state": "PE",
+        "country": "BR",
+        "name": "Pontal de Jaguaribe",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 10,
+    "fields": {
+        "city": "Ilha de Itamaracá",
+        "state": "PE",
+        "country": "BR",
+        "name": "jaguaribe",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 11,
+    "fields": {
+        "city": "Ilha de Itamaracá",
+        "state": "PE",
+        "country": "BR",
+        "name": "Quatro Cantos",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 12,
+    "fields": {
+        "city": "Ilha de Itamaracá",
+        "state": "PE",
+        "country": "BR",
+        "name": "Pilar",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 13,
+    "fields": {
+        "city": "Ilha de Itamaracá",
+        "state": "PE",
+        "country": "BR",
+        "name": "Rio Âmbar",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 14,
+    "fields": {
+        "city": "Ilha de Itamaracá",
+        "state": "PE",
+        "country": "BR",
+        "name": "Baixa Verde",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 15,
+    "fields": {
+        "city": "Ilha de Itamaracá",
+        "state": "PE",
+        "country": "BR",
+        "name": "Forno de Cal",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 16,
+    "fields": {
+        "city": "Ilha de Itamaracá",
+        "state": "PE",
+        "country": "BR",
+        "name": "Forte Orange",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 17,
+    "fields": {
+        "city": "Ilha de Itamaracá",
+        "state": "PE",
+        "country": "BR",
+        "name": "Enseada dos Golfinhos",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 18,
+    "fields": {
+        "city": "Ilha de Itamaracá",
+        "state": "PE",
+        "country": "BR",
+        "name": "São Paulo",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 19,
+    "fields": {
+        "city": "Ilha de Itamaracá",
+        "state": "PE",
+        "country": "BR",
+        "name": "Sossego",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 20,
+    "fields": {
+        "city": "Igarassu",
+        "state": "PE",
+        "country": "BR",
+        "name": "Gavoa",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 21,
+    "fields": {
+        "city": "Igarassu",
+        "state": "PE",
+        "country": "BR",
+        "name": "Ilhéu da Coroa do Avião",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 22,
+    "fields": {
+        "city": "Igarassu",
+        "state": "PE",
+        "country": "BR",
+        "name": "Mangue Seco",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 23,
+    "fields": {
+        "city": "Paulista",
+        "state": "PE",
+        "country": "BR",
+        "name": "Conceição",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 24,
+    "fields": {
+        "city": "Paulista",
+        "state": "PE",
+        "country": "BR",
+        "name": "Pau Amarelo",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 25,
+    "fields": {
+        "city": "Paulista",
+        "state": "PE",
+        "country": "BR",
+        "name": "Janga",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 26,
+    "fields": {
+        "city": "Paulista",
+        "state": "PE",
+        "country": "BR",
+        "name": "Maria farinha",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 27,
+    "fields": {
+        "city": "Olinda",
+        "state": "PE",
+        "country": "BR",
+        "name": "Rio Doce",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 28,
+    "fields": {
+        "city": "Olinda",
+        "state": "PE",
+        "country": "BR",
+        "name": "Casa Caiada",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 29,
+    "fields": {
+        "city": "Olinda",
+        "state": "PE",
+        "country": "BR",
+        "name": "Bairro Novo",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 30,
+    "fields": {
+        "city": "Olinda",
+        "state": "PE",
+        "country": "BR",
+        "name": "Farol",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 31,
+    "fields": {
+        "city": "Olinda",
+        "state": "PE",
+        "country": "BR",
+        "name": "Carmo",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 32,
+    "fields": {
+        "city": "Olinda",
+        "state": "PE",
+        "country": "BR",
+        "name": "Milagres",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 33,
+    "fields": {
+        "city": "Olinda",
+        "state": "PE",
+        "country": "BR",
+        "name": "Del Chifre",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 34,
+    "fields": {
+        "city": "Recife",
+        "state": "PE",
+        "country": "BR",
+        "name": "Brasília Teimosa",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 35,
+    "fields": {
+        "city": "Recife",
+        "state": "PE",
+        "country": "BR",
+        "name": "Pina",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 36,
+    "fields": {
+        "city": "Recife",
+        "state": "PE",
+        "country": "BR",
+        "name": "Boa Viagem",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 37,
+    "fields": {
+        "city": "Jaboatão",
+        "state": "PE",
+        "country": "BR",
+        "name": "Piedade",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 38,
+    "fields": {
+        "city": "Jaboatão",
+        "state": "PE",
+        "country": "BR",
+        "name": "Candeias",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 39,
+    "fields": {
+        "city": "Jaboatão",
+        "state": "PE",
+        "country": "BR",
+        "name": "Barra de Jangada",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 40,
+    "fields": {
+        "city": "Cabo de Santo Agostinho",
+        "state": "PE",
+        "country": "BR",
+        "name": "Paiva",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 41,
+    "fields": {
+        "city": "Cabo de Santo Agostinho",
+        "state": "PE",
+        "country": "BR",
+        "name": "Itapuama",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 42,
+    "fields": {
+        "city": "Cabo de Santo Agostinho",
+        "state": "PE",
+        "country": "BR",
+        "name": "Xeréu",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 43,
+    "fields": {
+        "city": "Cabo de Santo Agostinho",
+        "state": "PE",
+        "country": "BR",
+        "name": "Enseada dos Corais",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 44,
+    "fields": {
+        "city": "Cabo de Santo Agostinho",
+        "state": "PE",
+        "country": "BR",
+        "name": "Gaibu",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 45,
+    "fields": {
+        "city": "Cabo de Santo Agostinho",
+        "state": "PE",
+        "country": "BR",
+        "name": "Calhetas",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 46,
+    "fields": {
+        "city": "Cabo de Santo Agostinho",
+        "state": "PE",
+        "country": "BR",
+        "name": "Paraíso",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 47,
+    "fields": {
+        "city": "Cabo de Santo Agostinho",
+        "state": "PE",
+        "country": "BR",
+        "name": "Suape",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 48,
+    "fields": {
+        "city": "Ipojuca",
+        "state": "PE",
+        "country": "BR",
+        "name": "Camboa",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 49,
+    "fields": {
+        "city": "Ipojuca",
+        "state": "PE",
+        "country": "BR",
+        "name": "Muro Alto",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 50,
+    "fields": {
+        "city": "Ipojuca",
+        "state": "PE",
+        "country": "BR",
+        "name": "Cupê",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 51,
+    "fields": {
+        "city": "Ipojuca",
+        "state": "PE",
+        "country": "BR",
+        "name": "Porto de Galinhas",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 52,
+    "fields": {
+        "city": "Ipojuca",
+        "state": "PE",
+        "country": "BR",
+        "name": "Pontal de Maracaípe",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 53,
+    "fields": {
+        "city": "Ipojuca",
+        "state": "PE",
+        "country": "BR",
+        "name": "Maracaípe",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 54,
+    "fields": {
+        "city": "Ipojuca",
+        "state": "PE",
+        "country": "BR",
+        "name": "Serrambi",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 55,
+    "fields": {
+        "city": "Sirinhaém",
+        "state": "PE",
+        "country": "BR",
+        "name": "Gamela",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 56,
+    "fields": {
+        "city": "Sirinhaém",
+        "state": "PE",
+        "country": "BR",
+        "name": "Guadalupe",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 57,
+    "fields": {
+        "city": "Sirinhaém",
+        "state": "PE",
+        "country": "BR",
+        "name": "Barra de Sirinhaem",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 58,
+    "fields": {
+        "city": "Rio Formoso",
+        "state": "PE",
+        "country": "BR",
+        "name": "Pedra",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 59,
+    "fields": {
+        "city": "Rio Formoso",
+        "state": "PE",
+        "country": "BR",
+        "name": "Reduto",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 60,
+    "fields": {
+        "city": "Tamandaré",
+        "state": "PE",
+        "country": "BR",
+        "name": "Carneiros",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 61,
+    "fields": {
+        "city": "Tamandaré",
+        "state": "PE",
+        "country": "BR",
+        "name": "Campas",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 62,
+    "fields": {
+        "city": "Tamandaré",
+        "state": "PE",
+        "country": "BR",
+        "name": "Tamandaré",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 63,
+    "fields": {
+        "city": "Tamandaré",
+        "state": "PE",
+        "country": "BR",
+        "name": "Boca da Barra",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 64,
+    "fields": {
+        "city": "Barreiros",
+        "state": "PE",
+        "country": "BR",
+        "name": "Mamucabinhas",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 65,
+    "fields": {
+        "city": "Barreiros",
+        "state": "PE",
+        "country": "BR",
+        "name": "Porto",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 66,
+    "fields": {
+        "city": "São José da Coroa Grande",
+        "state": "PE",
+        "country": "BR",
+        "name": "Gravatá",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 67,
+    "fields": {
+        "city": "São José da Coroa Grande",
+        "state": "PE",
+        "country": "BR",
+        "name": "Barra da Cruz",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 68,
+    "fields": {
+        "city": "São José da Coroa Grande",
+        "state": "PE",
+        "country": "BR",
+        "name": "Várzea do Una",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 69,
+    "fields": {
+        "city": "São José da Coroa Grande",
+        "state": "PE",
+        "country": "BR",
+        "name": "Coroa Grande",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 70,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Sancho",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 71,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Conceição",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 72,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Cacimba do Padre",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 73,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Baía dos Golfinhos",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 74,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Baía dos Porcos",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 75,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Baía do Porto de Santo Antonio",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 76,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Boldró",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 77,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Americano",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 78,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Presságio",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 79,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Biboca",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 80,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Cachorro",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 81,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Do Meio",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 82,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Quixaba",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 83,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Ponta da Sapata",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 84,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Leão",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 85,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Ponta das Caracas",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 86,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Baía do Sueste",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 87,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Atalaia",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 88,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Enseada da Caeira",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 89,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Buraco da Raquel",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 90,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Caeira",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+},
+{
+    "model": "core.beach",
+    "pk": 91,
+    "fields": {
+        "city": "Ilhas de Fernando de Noronha",
+        "state": "PE",
+        "country": "BR",
+        "name": "Ponta da Air France",
+        "latitude": 0.0,
+        "longitude": 0.0
+    }
+}
+]

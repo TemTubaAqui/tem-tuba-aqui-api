@@ -1,4 +1,6 @@
 -r base.txt
 
 watchdog==3.0.0
-jupyter==1.0.0
+notebook==6.5.5
+
+django_extensions==3.2.3

@@ -1,2 +1,2 @@
-from .management import SharkUpdateRequest
-from .attacks import AttackType, SharkAttack
+from .management import *
+from .attacks import *

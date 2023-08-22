@@ -1,7 +1,9 @@
-from django.db import models
+from app.shared.models import Task
 
-from app.shared.models import BaseRequest
 
-class SharkUpdateRequest(BaseRequest):
+class SharkUpdateTask(Task):
     pass
 
+
+class BeachUpdateTask(Task):
+    pass

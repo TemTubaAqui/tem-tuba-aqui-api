@@ -29,12 +29,15 @@ dapp: FORCE
 	docker compose up -d server worker --build
 
 jupyter: FORCE
-	docker compose exec server jupyter notebook --allow-root --ip 0.0.0.0 --port 8888 --no-browser --NotebookApp.token='' --NotebookApp.password=''
+	docker compose exec server python manage.py shell_plus --notebook
 
 migrations: FORCE
 	docker compose exec server python manage.py makemigrations
 
 migrate: FORCE
 	docker compose exec server python manage.py migrate
+
+clean: FORCE
+	docker compose down
 
 FORCE: ;

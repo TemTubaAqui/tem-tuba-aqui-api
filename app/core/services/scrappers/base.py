@@ -1,5 +1,5 @@
 import requests
-import pandas as pd
+import polars as pl
 from bs4 import BeautifulSoup
 
 
@@ -9,5 +9,5 @@ class BaseScrapper:
         html = res.text
         self.soup = BeautifulSoup(html, "lxml")
 
-    def scrap(self) -> pd.DataFrame:
+    def scrap(self) -> pl.DataFrame:
         raise NotImplementedError

@@ -1,15 +1,14 @@
 from django.db import transaction
 
-from app.core import models
+from app.core.models import SharkUpdateTask
+
 
 class SharkService:
-
     @transaction.atomic
-    def _fetch_data(self, request: models.SharkUpdateRequest):
+    def _run(self, request: SharkUpdateTask):
         with request.run():
             # Do something
             pass
 
-    def run(self, request_id: int):
-        request = models.SharkUpdateRequest.objects.get(id=request_id)
-        self._fetch_data(request)
+    def execute(self, task: SharkUpdateTask):
+        self._run(task)

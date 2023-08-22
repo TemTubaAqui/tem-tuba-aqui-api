@@ -1,10 +1,9 @@
-import os
 import json
-import boto3
-
-from botocore.client import ClientError
+import os
 from pathlib import Path
 
+import boto3
+from botocore.client import ClientError
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -58,7 +57,14 @@ PROJECT_APPS = [
     "app.documents.apps.DocumentsConfig",
 ]
 
+DEVELOPMENT_APPS = [
+    "django_extensions",
+]
+
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + PROJECT_APPS
+
+if DEBUG:
+    INSTALLED_APPS += DEVELOPMENT_APPS
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -113,6 +119,8 @@ REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": [
         "rest_framework.authentication.TokenAuthentication",
     ],
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
+    "PAGE_SIZE": 10,
 }
 
 SPECTACULAR_SETTINGS = {"PREPROCESSING_HOOKS": ["settings.excluded_path.remove_schema"]}
@@ -184,6 +192,30 @@ AWS_S3_SIGNATURE_VERSION = "s3v4"
 
 SHARK_DATASET_URL = SECRETS.get("SHARK_DATASET_URL")
 
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "default": {
+            "format": "[%(levelname)s] [%(asctime)s] %(name)s.%(funcName)s:%(lineno)s: %(message)s"
+        }
+    },
+    "handlers": {
+        "console": {
+            "level": "DEBUG",
+            "class": "logging.StreamHandler",
+            "formatter": "default",
+        },
+    },
+    "loggers": {
+        "app": {
+            "handlers": ["console"],
+            "level": "DEBUG",
+            "propagate": True,
+        },
+    },
+}
+
 if DEBUG or ENVIRONMENT == "test":
     DEFAULT_FILE_STORAGE = "app.shared.aws.storage.MinioStorage"
 
@@ -210,3 +242,14 @@ if DEBUG or ENVIRONMENT == "test":
         s3.meta.client.head_bucket(Bucket=AWS_STORAGE_BUCKET_NAME)
     except ClientError:
         s3.create_bucket(Bucket=AWS_STORAGE_BUCKET_NAME)
+
+    NOTEBOOK_ARGUMENTS = [
+        "--allow-root",
+        "--ip",
+        "0.0.0.0",
+        "--port",
+        "8888",
+        "--no-browser",
+        "--NotebookApp.token=''",
+        "--NotebookApp.password=''",
+    ]

@@ -1,9 +1,11 @@
-import pandas as pd
+from typing import List, Tuple
+
+import polars as pl
+
 from .base import BaseScrapper
 
-from typing import Tuple, List
-
 Group = Tuple[str, List[str]]
+
 
 class ULScrapper(BaseScrapper):
     def _get_groups(self) -> List[Group]:
@@ -30,19 +32,17 @@ class ULScrapper(BaseScrapper):
                 group[1].extend(beaches)
 
         grouped.append(group)
+        return grouped
 
-    def _get_df(self, groups: List[Group]) -> pd.DataFrame:
+    def _get_df(self, groups: List[Group]) -> pl.DataFrame:
         data = []
 
         for city, beaches in groups:
             for beach in beaches:
-                data.append({
-                    'city': city,
-                    'beach': beach
-                })
+                data.append({"city": city, "beach": beach})
 
-        return pd.DataFrame(data)
+        return pl.DataFrame(data)
 
-    def scrap(self) -> pd.DataFrame:
+    def scrap(self) -> pl.DataFrame:
         groups = self._get_groups()
         return self._get_df(groups)

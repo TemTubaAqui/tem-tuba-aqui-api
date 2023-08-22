@@ -1,8 +1,22 @@
-from app.core.models import management
+from django.db.models import Count, Max
+from rest_framework import filters, mixins, viewsets
 
-from rest_framework import generics, views, response
-from rest_framework.generics import get_object_or_404
+from app.core import models
 
-class TestView(views.APIView):
-    def get(self, request, *args, **kwargs):
-        return response.Response({'hello': 'world'})
+from .serializers import BeachSerializer
+
+
+class BeachViewSet(
+    viewsets.GenericViewSet, mixins.ListModelMixin, mixins.RetrieveModelMixin
+):
+    serializer_class = BeachSerializer
+    filter_backends = (filters.SearchFilter,)
+    search_fields = ("name", "country", "state", "city")
+
+    def get_queryset(self):
+        return (
+            models.Beach.objects.order_by("country", "state", "city", "name")
+            .prefetch_related("attacks")
+            .annotate(attack_count=Count("attacks"), last_attack=Max("attacks__date"))
+            .all()
+        )

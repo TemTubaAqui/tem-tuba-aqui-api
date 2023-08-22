@@ -1,7 +1,9 @@
-from django.urls import path
+from django.urls import include, path
+from rest_framework_nested import routers
 
-from .views import TestView
+from .views import BeachViewSet
 
-urlpatterns = [
-    path("test/", TestView.as_view())
-]
+beach_router = routers.DefaultRouter()
+beach_router.register("beaches", BeachViewSet, "beaches")
+
+urlpatterns = [path("", include(beach_router.urls))]
