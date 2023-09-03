@@ -5,7 +5,7 @@
 - Docker
 - Docker Compose
 
-### Setup
+### Setup com docker
 
 - Clone o repositório
 - Execute a aplicação usando uma das opções abaixo:
@@ -14,6 +14,21 @@
   - Ou Makefile:
     - `make dinfra`
     - `make server`
+
+### Setup sem docker
+
+- Clone o repositório
+- #### Setup da venv (opcional)
+  - `python -m venv venv`
+  - `source venv/bin/activate`
+- #### Instalação das dependências
+  - `pip install -r requirements/dev.txt`
+- #### Setup da infraestrutura (docker)
+  - `docker compose up -d redis minio db --build`
+  - ou
+  - `make dinfra`
+- #### Iniciar aplicação
+  - `./no-docker.sh`
 
 ### Uso
 

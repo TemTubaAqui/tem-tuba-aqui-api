@@ -8,9 +8,25 @@ venv
 __pycache__
 .ipynb_checkpoints/
 
+# Django
+/static_root
+/static
+
 # Local
 env/.local.env
 temp/
 
 # OS
 .DS_Store
+
+# Terraform
+*-secrets.tfvars
+*.tfplan
+*.tfout
+*.tflock
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*

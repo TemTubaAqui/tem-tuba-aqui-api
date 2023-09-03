@@ -13,6 +13,12 @@ class BeachViewSet(
     filter_backends = (filters.SearchFilter,)
     search_fields = ("name", "country", "state", "city")
 
+    def paginate_queryset(self, queryset):
+        skip_pagination = self.request.query_params.get("skip_pagination", False)
+        if skip_pagination:
+            return None
+        return super().paginate_queryset(queryset)
+
     def get_queryset(self):
         return (
             models.Beach.objects.order_by("country", "state", "city", "name")

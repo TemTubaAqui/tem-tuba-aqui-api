@@ -11,6 +11,7 @@ services:
       - IS_ON_PREMISE=false
     env_file:
       - env/.dev.env
+      - env/.docker.env
     command: >
       bash -c 'python manage.py collectstatic --noinput &&
         python -Xfrozen_modules=off manage.py runserver 0.0.0.0:8000'
@@ -42,6 +43,7 @@ services:
       - IS_ON_PREMISE=false
     env_file:
       - env/.dev.env
+      - env/.docker.env
     depends_on:
       - server
       - minio
@@ -79,6 +81,7 @@ services:
       - ./.minio:/minio_files
     env_file:
       - env/.dev.env
+      - env/.docker.env
     command: 'minio server /minio_files --console-address ":9001"'
     ports:
       - 9000:9000

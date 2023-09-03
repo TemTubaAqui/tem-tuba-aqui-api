@@ -3,8 +3,6 @@ set -o errexit
 set -o pipefail
 set -o nounset
 
-python manage.py migrate
-python manage.py loaddata root
-python manage.py loaddata attacks
+python manage.py setup_app
 
 exec "$@"
