@@ -4,6 +4,12 @@ all: FORCE
 dall: FORCE
 	docker compose up -d --build
 
+db: FORCE
+	docker compose up db --build
+
+ddb: FORCE
+	docker compose up -d db --build
+
 infra: FORCE
 	docker compose up redis minio db --build
 

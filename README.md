@@ -1,11 +1,13 @@
-## TemTubaAqui API
+# TemTubaAqui API
+
+## Setup com docker
 
 ### Requisitos
 
 - Docker
 - Docker Compose
 
-### Setup com docker
+### Passos
 
 - Clone o repositório
 - Execute a aplicação usando uma das opções abaixo:
@@ -15,19 +17,44 @@
     - `make dinfra`
     - `make server`
 
-### Setup sem docker
+## Setup com postgresql no docker
+
+### Requisitos
+- Docker
+- Docker Compose
+- Python 3.11
+
+### Passos
 
 - Clone o repositório
-- #### Setup da venv (opcional)
+- **Setup da venv (opcional)**
   - `python -m venv venv`
   - `source venv/bin/activate`
-- #### Instalação das dependências
+- **Instalação das dependências**
   - `pip install -r requirements/dev.txt`
-- #### Setup da infraestrutura (docker)
+- **Setup da infraestrutura (docker)**
   - `docker compose up -d redis minio db --build`
   - ou
   - `make dinfra`
-- #### Iniciar aplicação
+- **Iniciar aplicação**
+  - `./no-docker.sh`
+
+## Setup sem docker
+
+### Requisitos
+- Instância do Postgresql 15 rodando na porta 5432 com as credenciais contidas em `env/.dev.env`
+  - https://www.postgresql.org/download/
+- Python 3.11
+
+### Passos
+
+- Clone o repositório
+- **Setup da venv (opcional)**
+  - `python -m venv venv`
+  - `source venv/bin/activate`
+- **Instalação das dependências**
+  - `pip install -r requirements/dev.txt`
+- **Iniciar aplicação**
   - `./no-docker.sh`
 
 ### Uso

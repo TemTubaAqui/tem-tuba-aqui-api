@@ -235,16 +235,16 @@ if DEBUG or ENVIRONMENT == "test":
     AWS_QUERYSTRING_AUTH = True
     AWS_S3_FILE_OVERWRITE = False
 
-    s3 = boto3.resource(
-        "s3",
-        endpoint_url=AWS_S3_ENDPOINT_URL,
-        aws_access_key_id=AWS_ACCESS_KEY_ID,
-        aws_secret_access_key=AWS_SECRET_ACCESS_KEY,
-    )
-    try:
-        s3.meta.client.head_bucket(Bucket=AWS_STORAGE_BUCKET_NAME)
-    except ClientError:
-        s3.create_bucket(Bucket=AWS_STORAGE_BUCKET_NAME)
+    # s3 = boto3.resource(
+    #     "s3",
+    #     endpoint_url=AWS_S3_ENDPOINT_URL,
+    #     aws_access_key_id=AWS_ACCESS_KEY_ID,
+    #     aws_secret_access_key=AWS_SECRET_ACCESS_KEY,
+    # )
+    # try:
+    #     s3.meta.client.head_bucket(Bucket=AWS_STORAGE_BUCKET_NAME)
+    # except ClientError:
+    #     s3.create_bucket(Bucket=AWS_STORAGE_BUCKET_NAME)
 
     NOTEBOOK_ARGUMENTS = [
         "--allow-root",
