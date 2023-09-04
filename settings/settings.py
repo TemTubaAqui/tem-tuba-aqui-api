@@ -2,8 +2,7 @@ import json
 import os
 from pathlib import Path
 
-import boto3
-from botocore.client import ClientError
+from dotenv import load_dotenv
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -15,6 +14,9 @@ if os.environ.get("SECRETS"):
     SECRETS = json.loads(os.environ.get("SECRETS"))
     del os.environ["SECRETS"]
 elif ENVIRONMENT == "development":
+    SECRETS = os.environ
+else:
+    load_dotenv(os.path.join(BASE_DIR, "env/.dev.env"))
     SECRETS = os.environ
 
 SECRET_KEY = SECRETS.get("SECRET_KEY")
